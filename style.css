@@ -1,0 +1,17 @@
+@font-face {
+    font-family: 'RosemaryPrint';
+    src: url('RosemaryPrint.otf') format('opentype');
+}
+
+body {
+    font-family: 'RosemaryPrint', sans-serif;
+}
+
+h1 {
+    color: #333;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
