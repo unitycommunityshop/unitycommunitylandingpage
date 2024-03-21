@@ -3,15 +3,23 @@
     src: url('RosemaryPrint.otf') format('opentype');
 }
 
+@font-face {
+    font-family: 'RosemarySpaced';
+    src: url('RosemarySpaced.otf') format('opentype');
+}
+
 body {
     font-family: 'RosemaryPrint', sans-serif;
+    text-align: center;
+    padding: 50px;
 }
 
 h1 {
     color: #333;
+    font-weight: normal;
+    font-family: 'RosemarySpaced', sans-serif;
 }
 
 a {
-    color: #007bff;
     text-decoration: none;
 }
